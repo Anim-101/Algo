@@ -52,7 +52,6 @@ int main()
     char firstStringArray[firstStringLength+1];
     strcpy(firstStringArray,firstString.c_str());
 
-
     cout<<"Input Second String Set:";
     string secondString;
     cin>>secondString;
