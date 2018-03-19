@@ -10,7 +10,6 @@ unsigned char *gbuf,*gbuf_start,*gbuf_end,g_cnt;
 unsigned int pbuf_count,nfread;
 unsigned int bit_read=0;
 
-
 //Initializing PutBuffer Function
 void init_putBuffer()
 {
