@@ -20,7 +20,7 @@ int main(int argc,char *argv[])
 
     if(argc!=3)
     {
-        fprintf(stderr,"Basic Huffman Implementation");
+        fprintf(stderr,"Basic Adaptive Huffman Based on FGK Algorithm Implementation");
         fprintf(stderr,"\nDeCompressor for 256 Base");
         fprintf(stderr,"\nProvide Input File name and Out put File Name");
         return 0;
