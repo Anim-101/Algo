@@ -124,7 +124,7 @@ int main (int argc,char *argv[])
     fprintf(stderr,"\nLength of Output File    =%15lu bytes",outputFileLength);
     fprintf(stderr,"\nCompression Ratio:        %15.2f%%\n",
         (((float)inputFileLength-(float)outputFileLength)/(float)inputFileLength)*(float)100);
-    fprintf(stderr,"\nTime Took to DeCompress That File Using Huffman %lf Seconds\n",timeTook);
+    fprintf(stderr,"\nTime Took to DeCompress That File Using Adaptive Huffman Based on Vitter's Algorithm %lf Seconds\n",timeTook);
 
 
     haltProg:
