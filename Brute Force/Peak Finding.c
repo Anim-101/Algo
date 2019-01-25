@@ -1,6 +1,3 @@
-/*
-Divide & Conquer Approach
-*/
 #include<stdio.h>
 
 int peakFinding(int arr[], int lowVal, int highVal, int n)
