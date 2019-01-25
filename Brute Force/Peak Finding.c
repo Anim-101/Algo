@@ -16,7 +16,6 @@ int peakFinding(int arr[], int lowVal, int highVal, int n)
     {
         return peakFinding(arr, (mid+1), highVal, n);
     }
-
 }
 
 int main()
