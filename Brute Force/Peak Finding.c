@@ -24,11 +24,15 @@ int main()
     int n;
     scanf("%d", &n);
     int arr[n];
+  
     printf("Enter %d Elements to Find Pick From This Array:\n", n);
+    
     for(int i = 0; i < n; i++)
     {
         scanf("%d", &arr[i]);
     }
+    
     printf("Peak Finding Index is: %d", peakFinding(arr, 0, n-1, n));
+    
     return 0;
 }
