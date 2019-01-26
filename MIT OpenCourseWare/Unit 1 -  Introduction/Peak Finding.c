@@ -1,5 +1,5 @@
 /*
-Divide & Conquer Approach
+Divide & Conquer Approach - 1D Version
 */
 #include<stdio.h>
 
