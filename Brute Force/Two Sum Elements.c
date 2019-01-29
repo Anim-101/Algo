@@ -1,4 +1,3 @@
-
 /*
 Given An Array of Elements, Finding out Two Sum
 Based on Given Target Sum. Print Set of Indexes of Matched
@@ -40,6 +39,11 @@ int main ()
 
         for(j = i+1; j < numberArray; j++)
         {
+            if(i == j)
+            {
+                continue;
+            }
+            
             if(arr[i] + arr[j] == target)
             {
                 counter ++;
