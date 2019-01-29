@@ -39,6 +39,11 @@ int main ()
 
         for(j = i+1; j < numberArray; j++)
         {
+            if( i == j)
+            {
+                continue;
+            }
+            
             if(arr[i] + arr[j] == target)
             {
                 counter ++;
