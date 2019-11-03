@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 
-char *rot13(const char *str, int size)
+char *rot13Encryptor(const char *str, int size)
 {
     char *string = (char *) malloc(sizeof(char) * size);
 
@@ -75,7 +75,7 @@ int main()
     }
     else
     {
-        printf("\nUsing Rot 13 Algorithm, We get: %s\n", rot13(string, size));
+        printf("\nUsing Rot 13 Algorithm, We get: %s\n", rot13Encryptor(string, size));
     }
 
     return 0;
