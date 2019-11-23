@@ -1,1 +1,1 @@
-Compression related Data Structures & Algorithms.
+# Data - Information Compression Algorithms Based Enocoder and Decoder => Compressor and Decompressor Implementations
