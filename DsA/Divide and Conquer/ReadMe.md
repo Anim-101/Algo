@@ -1,1 +1,1 @@
-Implementation of Divide and Conquer type of Algorithms.
+## Implementations of Basic and Related Divide and Conquer Algorithms.
