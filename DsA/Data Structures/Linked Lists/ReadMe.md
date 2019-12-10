@@ -1,1 +1,1 @@
-Implementation of Linked Lists->Basic Data Structures.
+## Implementations of Linked Lists -> Basic and Related Data Structures.
