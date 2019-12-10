@@ -8,7 +8,7 @@ struct Node
 }
 *firstNode = NULL;
 
-void createNodes(int array[], int numberOfNodes)
+void createNodes(int array [], int numberOfNodes)
 {
     struct Node *tempNode, *lastNode;
 
@@ -34,13 +34,13 @@ void createNodes(int array[], int numberOfNodes)
     }
 }
 
-void displayNodes(struct Node *pointNode)
+void recursiveDisplayNodes(struct Node *pointNode)
 {
-    while(pointNode != NULL)
+    if(pointNode != NULL)
     {
-        printf("%d ", pointNode->data);
+        recursiveDisplayNodes(pointNode->next);
 
-        pointNode = pointNode->next;
+        printf("%d ", pointNode->data);
     }
 }
 
@@ -50,7 +50,7 @@ int main()
 
     createNodes(array, 10);
 
-    displayNodes(firstNode);
+    recursiveDisplayNodes(firstNode);
 
     return 0;
 }
