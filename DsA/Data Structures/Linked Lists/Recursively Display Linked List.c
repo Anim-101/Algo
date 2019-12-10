@@ -50,7 +50,11 @@ int main()
 
     createNodes(array, 10);
 
+    printf("\n");
+
     recursiveDisplayNodes(firstNode);
+
+    printf("\n");
 
     return 0;
 }

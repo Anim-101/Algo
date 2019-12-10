@@ -34,27 +34,43 @@ void createNodes(int array[], int numberOfNodes)
     }
 }
 
-void recursiveDisplayDataFirstLinkedList(struct Node *pointNode)
+void displayNodes(struct Node *pointNode)
 {
-   if(pointNode != NULL)
-   {
-       printf("%d ", pointNode->data);
+    printf("\n");
 
-       recursiveDisplayDataFirstLinkedList(pointNode->next);
-   }
+    while(pointNode != NULL)
+    {
+        printf("%d ", pointNode->data);
+
+        pointNode = pointNode->next;
+    }
+
+    printf("\n\n");
+}
+
+int countElements(struct Node *pointNode)
+{
+    int count = 0;
+
+    while(pointNode != NULL)
+    {
+        count++;
+
+        pointNode = pointNode->next;
+    }
+
+    return count;
 }
 
 int main()
 {
     int array[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 
-    printf("\n");
-
     createNodes(array, 10);
 
-    recursiveDisplayDataFirstLinkedList(firstNode);
+    displayNodes(firstNode);
 
-    printf("\n");
+    printf("Number of Elements in Given Linked List: %d\n", countElements(firstNode));
 
     return 0;
 }
