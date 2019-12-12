@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int symetricMatrix(int size, int array[size][size])
+int symmetricMatrix(int size, int array[size][size])
 {
     int flag = 0;
 
@@ -22,11 +22,9 @@ int symetricMatrix(int size, int array[size][size])
 
 int main()
 {
-    int size = 5;
-
     int array[5][5] = {{2, 2, 2, 2, 2}, {2, 3, 3, 3, 3}, {2, 3, 4, 4, 4}, {2, 3, 4, 5, 5}, {2, 3, 4, 5, 6}};
 
-    int check = symetricMatrix(size, array);
+    int check = symmetricMatrix(5, array);
 
     if(check == 0)
     {
