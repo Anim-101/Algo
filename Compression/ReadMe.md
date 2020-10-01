@@ -1,1 +1,3 @@
-# Data - Information Compression Algorithms Based Enocoder and Decoder => Compressor and Decompressor Implementations
+# Algorithms -> Data (Compression) Information.
+
+## Compression Alogrithms' implementations. Codes of Encoder and Decoder.
